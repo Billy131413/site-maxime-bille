@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Maxime BILLE, webdesigner freelance. Découvrez mes projets de démonstration : sites vitrine et multi-pages conçus pour illustrer mon savoir-faire.">
+  <meta name="author" content="Maxime BILLE">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Portfolio — Maxime BILLE | Webdesigner Freelance">
+  <meta property="og:description" content="Sites web professionnels sur mesure : vitrine, multi-pages. Découvrez mes projets de démonstration illustrant mon savoir-faire.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://maxime-bille.fr/portfolio.html">
+  <meta property="og:image" content="https://maxime-bille.fr/portfolio/screenshots/fleuriste-accueil.png">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Maxime BILLE — Webdesigner Freelance">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio — Maxime BILLE | Webdesigner Freelance">
+  <meta name="twitter:description" content="Sites web professionnels sur mesure : vitrine, multi-pages. Découvrez mes projets de démonstration illustrant mon savoir-faire.">
+  <meta name="twitter:image" content="https://maxime-bille.fr/portfolio/screenshots/fleuriste-accueil.png">
+
+  <title>Portfolio — Maxime BILLE | Webdesigner Freelance</title>
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://maxime-bille.fr/portfolio.html">
+
+  <meta name="theme-color" content="#1a1a2e">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Portfolio-specific styles -->
+  <link rel="stylesheet" href="css/portfolio.css">
+
+  <!-- JSON-LD: ItemList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Portfolio — Maxime BILLE",
+    "description": "Projets de démonstration illustrant le savoir-faire de Maxime BILLE, webdesigner freelance.",
+    "numberOfItems": 5,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "CreativeWork",
+          "name": "L'Atelier Fleuriste",
+          "description": "Site vitrine 4 pages au design floral et épuré pour un fleuriste artisanal.",
+          "image": "https://maxime-bille.fr/portfolio/screenshots/fleuriste-accueil.png"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "CreativeWork",
+          "name": "L'Atelier Ongulaire",
+          "description": "Design élégant et féminin pour une prothésiste ongulaire, avec galerie et prise de rendez-vous.",
+          "image": "https://maxime-bille.fr/portfolio/screenshots/ongulaire-accueil.png"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "CreativeWork",
+          "name": "L'Atelier Déco",
+          "description": "Boutique en ligne haut de gamme pour une marque de décoration d'intérieur, avec paiement Stripe et back-office admin.",
+          "image": "https://maxime-bille.fr/portfolio/screenshots/ecommerce-accueil.png"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "CreativeWork",
+          "name": "L'Atelier Plomberie",
+          "description": "Application Next.js avec pages de zones d'intervention et formulaire de devis intelligent.",
+          "image": "https://maxime-bille.fr/portfolio/screenshots/plomberie-accueil.png"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "CreativeWork",
+          "name": "L'Atelier Coiffure",
+          "description": "Site vitrine animé avec GSAP pour un salon de coiffure moderne et dynamique.",
+          "image": "https://maxime-bille.fr/portfolio/screenshots/coiffure-accueil.png"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <!-- ======================== HEADER ======================== -->
+  <header class="site-header" role="banner">
+    <div class="container site-header__inner">
+      <a href="index.html" class="site-logo" aria-label="Maxime BILLE — Accueil">
+        <img class="site-logo__mark" src="assets/icons/favicon.svg" alt="" aria-hidden="true" width="36" height="36">
+        <span>Maxime BILLE</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" role="navigation" aria-label="Navigation principale">
+        <div class="nav-links__header">
+          <img class="site-logo__mark" src="assets/icons/favicon.svg" alt="" aria-hidden="true" width="36" height="36">
+          <span>Maxime BILLE</span>
+        </div>
+        <a href="index.html">Accueil</a>
+        <a href="portfolio.html" class="active" aria-current="page">Portfolio</a>
+        <a href="offres.html">Offres</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="nav-cta">
+          Demander un devis
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <div class="nav-links__theme">
+          <button class="theme-toggle" aria-label="Changer le thème">
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          </button>
+          <span class="nav-links__theme-label">Thème</span>
+        </div>
+      </nav>
+
+      <button class="theme-toggle" aria-label="Changer le thème">
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+
+      <button class="menu-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-overlay" aria-hidden="true"></div>
+
+  <!-- ======================== MAIN ======================== -->
+  <main id="main-content">
+
+    <!-- ===== HERO COMPACT ===== -->
+    <section class="hero hero--compact" aria-labelledby="page-title">
+      <div class="hero__bg-pattern" aria-hidden="true"></div>
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <!-- Breadcrumb -->
+        <nav aria-label="Fil d'Ariane" class="breadcrumb">
+          <a href="index.html">Accueil</a>
+          <span class="breadcrumb__separator" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          </span>
+          <span class="breadcrumb__current" aria-current="page">Portfolio</span>
+        </nav>
+
+        <h1 id="page-title" class="hero__title">Mon <span>Portfolio</span></h1>
+        <p class="hero__subtitle">Chaque projet raconte une histoire. Découvrez les sites web que j'ai conçus en guise de démonstration, pour illustrer ce que je peux créer pour votre activité.</p>
+      </div>
+    </section>
+
+    <!-- ===== PORTFOLIO SECTION ===== -->
+    <section class="section" aria-labelledby="projects-heading">
+      <div class="container">
+
+        <div class="section__header reveal">
+          <span class="section__label">Réalisations</span>
+          <h2 id="projects-heading" class="section__title">Des projets, un savoir-faire</h2>
+          <p class="section__subtitle">Filtrez par catégorie pour explorer les projets qui correspondent à vos besoins.</p>
+        </div>
+
+        <!-- Filter bar -->
+        <div class="filter-bar" role="toolbar" aria-label="Filtrer les projets par catégorie">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">Tous</button>
+          <button class="filter-btn" data-filter="vitrine" aria-pressed="false">Vitrine</button>
+          <button class="filter-btn" data-filter="multi-pages" aria-pressed="false">Multi-pages</button>
+          <button class="filter-btn" data-filter="e-commerce" aria-pressed="false">E-commerce</button>
+        </div>
+
+        <!-- Portfolio grid (populated by JS) -->
+        <div id="portfolio-grid" class="grid grid--2" role="list" aria-live="polite">
+          <!-- Cards will be injected by portfolio.js -->
+        </div>
+
+        <!-- Noscript fallback with static cards -->
+        <noscript>
+          <div class="noscript-notice">
+            <p>JavaScript est désactivé. Voici un aperçu statique de mes projets.</p>
+          </div>
+          <div class="grid grid--2">
+
+            <!-- Card 1 — L'Atelier Fleuriste -->
+            <article class="card" role="listitem">
+              <img
+                src="portfolio/screenshots/fleuriste-accueil.png"
+                alt="Capture d'écran du site L'Atelier Fleuriste — page d'accueil"
+                class="card__image"
+                width="800"
+                height="500"
+              >
+              <div class="card__body">
+                <span class="card__tag">Commerce</span>
+                <h3 class="card__title">L'Atelier Fleuriste</h3>
+                <p class="card__text">Créer une présence en ligne élégante pour un fleuriste artisanal, reflétant la délicatesse et le raffinement de son savoir-faire.</p>
+              </div>
+              <div class="card__footer">
+                <div class="card__techs">
+                  <span class="card__tech">HTML</span>
+                  <span class="card__tech">CSS</span>
+                  <span class="card__tech">JavaScript</span>
+                </div>
+                <span class="card__link">
+                  Voir le projet
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </span>
+              </div>
+            </article>
+
+            <!-- Card 2 — L'Atelier Ongulaire -->
+            <article class="card" role="listitem">
+              <img
+                src="portfolio/screenshots/ongulaire-accueil.png"
+                alt="Capture d'écran du site L'Atelier Ongulaire — page d'accueil"
+                class="card__image"
+                width="800"
+                height="500"
+              >
+              <div class="card__body">
+                <span class="card__tag">Beauté</span>
+                <h3 class="card__title">L'Atelier Ongulaire</h3>
+                <p class="card__text">Mettre en valeur le travail minutieux d'une prothésiste ongulaire avec un site aussi soigné que ses réalisations.</p>
+              </div>
+              <div class="card__footer">
+                <div class="card__techs">
+                  <span class="card__tech">HTML</span>
+                  <span class="card__tech">CSS</span>
+                  <span class="card__tech">JavaScript</span>
+                </div>
+                <span class="card__link">
+                  Voir le projet
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </span>
+              </div>
+            </article>
+
+            <!-- Card 3 — L'Atelier Coiffure -->
+            <article class="card" role="listitem">
+              <img
+                src="portfolio/screenshots/coiffure-accueil.png"
+                alt="Capture d'écran du site L'Atelier Coiffure — page d'accueil"
+                class="card__image"
+                width="800"
+                height="500"
+              >
+              <div class="card__body">
+                <span class="card__tag">Beauté</span>
+                <h3 class="card__title">L'Atelier Coiffure</h3>
+                <p class="card__text">Concevoir un site moderne pour un salon de coiffure, avec animations fluides et une expérience utilisateur haut de gamme.</p>
+              </div>
+              <div class="card__footer">
+                <div class="card__techs">
+                  <span class="card__tech">HTML</span>
+                  <span class="card__tech">CSS</span>
+                  <span class="card__tech">JavaScript</span>
+                  <span class="card__tech">GSAP</span>
+                </div>
+                <span class="card__link">
+                  Voir le projet
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </span>
+              </div>
+            </article>
+
+            <!-- Card 4 — L'Atelier Plomberie -->
+            <article class="card" role="listitem">
+              <img
+                src="portfolio/screenshots/plomberie-accueil.png"
+                alt="Capture d'écran du site L'Atelier Plomberie — page d'accueil"
+                class="card__image"
+                width="800"
+                height="500"
+              >
+              <div class="card__body">
+                <span class="card__tag">Artisanat</span>
+                <h3 class="card__title">L'Atelier Plomberie</h3>
+                <p class="card__text">Créer un site performant pour un plombier avec un système d'urgence, une couverture géographique et un formulaire de devis qualifié.</p>
+              </div>
+              <div class="card__footer">
+                <div class="card__techs">
+                  <span class="card__tech">Next.js</span>
+                  <span class="card__tech">React</span>
+                  <span class="card__tech">TypeScript</span>
+                  <span class="card__tech">Tailwind</span>
+                </div>
+                <span class="card__link">
+                  Voir le projet
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </span>
+              </div>
+            </article>
+
+          </div>
+        </noscript>
+
+      </div>
+    </section>
+
+    <!-- ======================== PROJECT MODAL ======================== -->
+    <div id="project-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+      <div class="modal">
+
+        <!-- Close button -->
+        <button class="modal__close" aria-label="Fermer la fenêtre" id="modal-close">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+
+        <!-- Carousel -->
+        <div class="modal__carousel" aria-label="Galerie de captures d'écran du projet">
+          <div class="modal__carousel-track" id="carousel-track">
+            <!-- Slides injected by JS -->
+          </div>
+
+          <button class="modal__carousel-btn modal__carousel-btn--prev" aria-label="Image précédente" id="carousel-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+
+          <button class="modal__carousel-btn modal__carousel-btn--next" aria-label="Image suivante" id="carousel-next">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+
+          <div class="modal__carousel-dots" id="carousel-dots" role="tablist" aria-label="Navigation des images">
+            <!-- Dots injected by JS -->
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="modal__content">
+
+          <!-- Header -->
+          <div class="modal__header">
+            <div>
+              <h2 id="modal-title" class="modal__title"><!-- JS --></h2>
+              <div class="modal__meta">
+                <span class="modal__sector" id="modal-sector"><!-- JS --></span>
+                <span class="modal__year" id="modal-year"><!-- JS --></span>
+              </div>
+            </div>
+            <div class="modal__techs" id="modal-techs">
+              <!-- Tech badges injected by JS -->
+            </div>
+          </div>
+
+          <!-- Challenge / Solution / Result -->
+          <div class="modal__sections">
+            <div class="modal__section">
+              <div class="modal__section-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+              </div>
+              <h3 class="modal__section-title">Le défi</h3>
+              <p class="modal__section-text" id="modal-challenge"><!-- JS --></p>
+            </div>
+            <div class="modal__section">
+              <div class="modal__section-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+              </div>
+              <h3 class="modal__section-title">La solution</h3>
+              <p class="modal__section-text" id="modal-solution"><!-- JS --></p>
+            </div>
+            <div class="modal__section">
+              <div class="modal__section-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5C7 4 9 7 12 7s5-3 7.5-3a2.5 2.5 0 0 1 0 5H18"/><path d="M18 15h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M6 15H4.5a2.5 2.5 0 0 0 0 5H6"/><path d="M18 15a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v6z"/></svg>
+              </div>
+              <h3 class="modal__section-title">Le résultat</h3>
+              <p class="modal__section-text" id="modal-result"><!-- JS --></p>
+            </div>
+          </div>
+
+          <!-- Metrics -->
+          <div class="modal__metrics" id="modal-metrics">
+            <!-- Metrics injected by JS -->
+          </div>
+
+          <!-- Footer: link + navigation -->
+          <div class="modal__footer">
+            <div class="modal__nav">
+              <button class="modal__nav-btn" id="modal-prev" aria-label="Projet précédent">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+                Précédent
+              </button>
+              <button class="modal__nav-btn" id="modal-next" aria-label="Projet suivant">
+                Suivant
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== LIGHTBOX (zoom image plein écran) ===== -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox__close" aria-label="Fermer">&times;</button>
+      <button class="lightbox__arrow lightbox__arrow--left" aria-label="Image précédente">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <img class="lightbox__img" src="" alt="">
+      <button class="lightbox__arrow lightbox__arrow--right" aria-label="Image suivante">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </div>
+
+  </main>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+
+        <!-- Marque -->
+        <div>
+          <a href="index.html" class="site-logo" aria-label="Maxime BILLE — Accueil">
+            <img class="site-logo__mark" src="assets/icons/favicon.svg" alt="" aria-hidden="true" width="36" height="36">
+            <span class="footer__logo-text">Maxime BILLE</span>
+          </a>
+          <p class="footer__brand-desc">
+            Webdesigner freelance spécialisé dans la création de sites web sur mesure pour artisans et TPE.
+            Code pur, performances maximales, approche structurée.
+          </p>
+        </div>
+
+        <!-- Pages -->
+        <div>
+          <h4 class="footer__heading">Pages</h4>
+          <ul class="footer__links" role="list">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="offres.html">Offres</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <ul class="footer__links" role="list">
+            <li><a href="offres.html">Création de site web</a></li>
+            <li><a href="offres.html#maintenance">Maintenance</a></li>
+            <li><a href="offres.html">Optimisation SEO</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <ul class="footer__links" role="list">
+            <li><a href="mailto:contact@maxime-bille.fr">contact@maxime-bille.fr</a></li>
+            <li>France</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 Maxime BILLE. Tous droits réservés.</p>
+        <nav class="footer__legal-nav" aria-label="Liens légaux">
+          <a href="mentions-legales.html">Mentions légales</a>
+          <a href="confidentialite.html">Confidentialité</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================== SCRIPTS ======================== -->
+  <!-- GSAP -->
+  <script src="js/vendor/gsap.min.js" defer></script>
+  <script src="js/vendor/ScrollTrigger.min.js" defer></script>
+
+  <!-- Site scripts -->
+  <script src="js/main.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/portfolio.js" defer></script>
+
+  <!-- Back to top -->
+  <button class="back-to-top" aria-label="Retour en haut de page">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+</body>
+</html>

@@ -1,0 +1,175 @@
+/* ============================================
+   STYLES OFFRES — Extras et Hero page
+   ============================================ */
+
+/* --- Compact pricing cards --- */
+.section--compact .pricing-card {
+  padding: var(--space-lg);
+}
+
+.section--compact .pricing-card__desc {
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-md);
+}
+
+.section--compact .pricing-card__amount {
+  font-size: var(--text-3xl);
+}
+
+.section--compact .pricing-card__from {
+  font-size: var(--text-xs);
+  margin-bottom: var(--space-xs);
+}
+
+.section--compact .pricing-card__launch {
+  margin-bottom: var(--space-md);
+}
+
+.section--compact .pricing-card__features {
+  margin-bottom: var(--space-lg);
+}
+
+.section--compact .pricing-card__feature {
+  padding: 0.25rem 0;
+  font-size: var(--text-sm);
+}
+
+.section--compact .pricing-card__feature svg {
+  width: 16px;
+  height: 16px;
+}
+
+.section--compact .pricing-card__delai {
+  padding: var(--space-xs) var(--space-md);
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-md);
+}
+
+.section--compact .pricing-card .btn {
+  padding: 0.75rem 1.75rem;
+  font-size: var(--text-sm);
+}
+
+/* --- Compact comparison table --- */
+.section--compact .comparison-table th,
+.section--compact .comparison-table td {
+  padding: var(--space-sm);
+  font-size: var(--text-sm);
+}
+
+/* --- Compact extras --- */
+.section--compact .extras-list {
+  gap: var(--space-sm);
+}
+
+.section--compact .extras-item {
+  padding: var(--space-md);
+  gap: var(--space-md);
+}
+
+.section--compact .extras-item__icon {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+}
+
+.section--compact .extras-item__icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.section--compact .extras-item__title {
+  font-size: var(--text-sm);
+}
+
+.section--compact .extras-item__text {
+  font-size: var(--text-xs);
+}
+
+.section--compact .extras-item__amount {
+  font-size: var(--text-xl);
+}
+
+/* --- Extras list --- */
+.extras-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.extras-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: var(--space-lg);
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.extras-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.extras-item__icon {
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent-light);
+  border-radius: var(--radius-lg);
+  color: var(--color-accent);
+}
+
+.extras-item__content {
+  flex: 1;
+}
+
+.extras-item__title {
+  font-size: var(--text-md);
+  font-weight: var(--font-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-2xs);
+}
+
+.extras-item__text {
+  font-size: var(--text-sm);
+  color: var(--color-gray-500);
+  line-height: var(--leading-relaxed);
+}
+
+.extras-item__price {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2xs);
+  white-space: nowrap;
+}
+
+.extras-item__unit {
+  font-size: var(--text-sm);
+  color: var(--color-gray-400);
+  font-weight: var(--font-medium);
+}
+
+.extras-item__amount {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-extrabold);
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .extras-item {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-md);
+  }
+
+  .extras-item__price {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "L'Atelier Fleuriste",
+    "slug": "atelier-fleuriste",
+    "category": "vitrine",
+    "sector": "Commerce",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "client": "L'Atelier Fleuriste",
+    "year": 2026,
+    "thumbnail": "portfolio/screenshots/fleuriste-accueil.png",
+    "heroImage": "portfolio/screenshots/fleuriste-accueil.png",
+    "screenshots": [
+      "portfolio/screenshots/fleuriste-accueil.png",
+      "portfolio/screenshots/fleuriste-services.png",
+      "portfolio/screenshots/fleuriste-galerie.png",
+      "portfolio/screenshots/fleuriste-contact.png"
+    ],
+    "challenge": "Créer une présence en ligne élégante pour un fleuriste artisanal, reflétant la délicatesse et le raffinement de son savoir-faire.",
+    "solution": "Site vitrine 4 pages au design floral et épuré, avec galerie photo immersive des compositions et formulaire de contact pour les commandes personnalisées.",
+    "result": "Un site pensé pour valoriser l'artisanat floral et faciliter les demandes de devis.",
+    "metrics": {
+      "pages": 4,
+      "type": "Site vitrine",
+      "delai": "7 jours"
+    },
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "L'Atelier Ongulaire",
+    "slug": "atelier-ongulaire",
+    "category": "vitrine",
+    "sector": "Beauté",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "client": "L'Atelier Ongulaire",
+    "year": 2026,
+    "thumbnail": "portfolio/screenshots/ongulaire-accueil.png",
+    "heroImage": "portfolio/screenshots/ongulaire-accueil.png",
+    "screenshots": [
+      "portfolio/screenshots/ongulaire-accueil.png",
+      "portfolio/screenshots/ongulaire-services.png",
+      "portfolio/screenshots/ongulaire-galerie.png",
+      "portfolio/screenshots/ongulaire-contact.png"
+    ],
+    "challenge": "Mettre en valeur le travail minutieux d'une prothésiste ongulaire avec un site aussi soigné que ses réalisations.",
+    "solution": "Design élégant et féminin, galerie de réalisations avec zoom haute qualité, système de prise de rendez-vous et tarifs clairs.",
+    "result": "Un site conçu pour mettre en avant le savoir-faire et encourager la prise de rendez-vous.",
+    "metrics": {
+      "pages": 4,
+      "type": "Site vitrine",
+      "delai": "7 jours"
+    },
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "L'Atelier Déco",
+    "slug": "atelier-deco",
+    "category": "e-commerce",
+    "sector": "E-commerce",
+    "tech": ["Next.js", "React", "TypeScript", "Stripe", "Tailwind", "Prisma"],
+    "client": "L'Atelier Déco",
+    "year": 2026,
+    "thumbnail": "portfolio/screenshots/ecommerce-accueil.png",
+    "heroImage": "portfolio/screenshots/ecommerce-accueil.png",
+    "screenshots": [
+      "portfolio/screenshots/ecommerce-accueil.png",
+      "portfolio/screenshots/ecommerce-boutique.png",
+      "portfolio/screenshots/ecommerce-produit.png",
+      "portfolio/screenshots/ecommerce-panier.png"
+    ],
+    "challenge": "Concevoir une boutique en ligne haut de gamme pour une marque de décoration d'intérieur, avec catalogue produits, panier persistant et paiement sécurisé.",
+    "solution": "E-commerce Next.js avec design luxe aux tons chauds et dorés, catalogue de 8 produits par catégorie, fiches détaillées, panier temps réel, paiement Stripe et back-office admin complet.",
+    "result": "Une boutique en ligne pensée pour refléter l'univers de la marque et offrir une expérience d'achat fluide.",
+    "metrics": {
+      "pages": 8,
+      "type": "E-commerce",
+      "delai": "21 jours"
+    },
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "L'Atelier Plomberie",
+    "slug": "atelier-plomberie",
+    "category": "multi-pages",
+    "sector": "Artisanat",
+    "tech": ["Next.js", "React", "TypeScript", "Tailwind"],
+    "client": "L'Atelier Plomberie",
+    "year": 2026,
+    "thumbnail": "portfolio/screenshots/plomberie-accueil.png",
+    "heroImage": "portfolio/screenshots/plomberie-accueil.png",
+    "screenshots": [
+      "portfolio/screenshots/plomberie-accueil.png",
+      "portfolio/screenshots/plomberie-urgences.png",
+      "portfolio/screenshots/plomberie-zones.png",
+      "portfolio/screenshots/plomberie-devis.png"
+    ],
+    "challenge": "Créer un site performant pour un plombier avec un système d'urgence, une couverture géographique et un formulaire de devis qualifié.",
+    "solution": "Application Next.js avec pages de zones d'intervention, formulaire de devis intelligent et bouton d'appel d'urgence flottant.",
+    "result": "Un site structuré pour faciliter les demandes de devis ciblées et les appels qualifiés.",
+    "metrics": {
+      "pages": 4,
+      "type": "Site multi-pages",
+      "delai": "14 jours"
+    },
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "L'Atelier Coiffure",
+    "slug": "atelier-coiffure",
+    "category": "vitrine",
+    "sector": "Beauté",
+    "tech": ["HTML", "CSS", "JavaScript", "GSAP"],
+    "client": "L'Atelier Coiffure",
+    "year": 2026,
+    "thumbnail": "portfolio/screenshots/coiffure-accueil.png",
+    "heroImage": "portfolio/screenshots/coiffure-accueil.png",
+    "screenshots": [
+      "portfolio/screenshots/coiffure-accueil.png",
+      "portfolio/screenshots/coiffure-services.png",
+      "portfolio/screenshots/coiffure-prestations.png",
+      "portfolio/screenshots/coiffure-contact.png"
+    ],
+    "challenge": "Concevoir un site moderne pour un salon de coiffure, avec animations fluides et une expérience utilisateur haut de gamme.",
+    "solution": "Site vitrine animé avec GSAP, présentant les prestations, les tarifs et les réalisations dans un design tendance et dynamique.",
+    "result": "Un site pensé pour différencier le salon grâce à une expérience web moderne et mémorable.",
+    "metrics": {
+      "pages": 4,
+      "type": "Site vitrine",
+      "delai": "10 jours"
+    },
+    "featured": true
+  }
+]

@@ -1,0 +1,187 @@
+/* ============================================
+   VARIABLES DE THEME — Maxime BILLE Webdesigner
+   ============================================ */
+
+:root {
+  /* --- Couleurs principales --- */
+  --color-primary: #1a1a2e;
+  --color-primary-light: #16213e;
+  --color-primary-dark: #0a1628;
+  --color-accent: #e94560;
+  --color-accent-hover: #d63851;
+  --color-accent-light: rgba(233, 69, 96, 0.1);
+  --color-accent-glow: rgba(233, 69, 96, 0.3);
+
+  /* --- Neutres --- */
+  --color-white: #ffffff;
+  --color-off-white: #f8f9fa;
+  --color-light: #eef0f2;
+  --color-gray-100: #e9ecef;
+  --color-gray-200: #dee2e6;
+  --color-gray-300: #ced4da;
+  --color-gray-400: #adb5bd;
+  --color-gray-500: #6c757d;
+  --color-gray-600: #495057;
+  --color-gray-700: #343a40;
+  --color-gray-800: #212529;
+  --color-dark: #0f0f1a;
+  --color-black: #000000;
+
+  /* --- Sémantiques --- */
+  --color-success: #2ecc71;
+  --color-warning: #f39c12;
+  --color-error: #e74c3c;
+  --color-info: #3498db;
+
+  /* --- Typographie --- */
+  --font-display: 'Cabinet Grotesk', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Tailles */
+  --text-xs: clamp(0.8125rem, 0.78rem + 0.15vw, 0.8125rem);
+  --text-sm: clamp(0.875rem, 0.84rem + 0.15vw, 0.875rem);
+  --text-base: clamp(1rem, 0.96rem + 0.18vw, 1.0625rem);
+  --text-md: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1.05rem + 0.35vw, 1.25rem);
+  --text-xl: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 1.3rem + 0.9vw, 2rem);
+  --text-3xl: clamp(1.875rem, 1.5rem + 1.5vw, 2.5rem);
+  --text-4xl: clamp(2.25rem, 1.8rem + 2vw, 3.25rem);
+  --text-5xl: clamp(2.75rem, 2rem + 3vw, 4rem);
+
+  /* Poids */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+
+  /* Interlignage */
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  /* --- Espacements --- */
+  --space-2xs: clamp(0.25rem, 0.2rem + 0.15vw, 0.375rem);
+  --space-xs: clamp(0.5rem, 0.45rem + 0.2vw, 0.625rem);
+  --space-sm: clamp(0.75rem, 0.65rem + 0.4vw, 1rem);
+  --space-md: clamp(1rem, 0.85rem + 0.6vw, 1.5rem);
+  --space-lg: clamp(1.5rem, 1.2rem + 1.2vw, 2.5rem);
+  --space-xl: clamp(2rem, 1.5rem + 2vw, 3.5rem);
+  --space-2xl: clamp(3rem, 2rem + 3.5vw, 5rem);
+  --space-3xl: clamp(4rem, 3rem + 4vw, 7rem);
+  --space-section: clamp(5rem, 4rem + 5vw, 9rem);
+
+  /* --- Layout --- */
+  --container-max: 1200px;
+  --container-narrow: 800px;
+  --container-wide: 1400px;
+  --container-padding: clamp(1.25rem, 1rem + 1.5vw, 2.5rem);
+
+  /* --- Bordures --- */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* --- Ombres --- */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.15), 0 8px 20px rgba(0, 0, 0, 0.08);
+  --shadow-accent: 0 8px 30px rgba(233, 69, 96, 0.25);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.06), 0 0 1px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 12px 40px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+
+  /* --- Transitions --- */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* --- Z-index --- */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-header: 300;
+  --z-overlay: 400;
+  --z-modal: 500;
+  --z-toast: 600;
+}
+
+/* --- Mode sombre --- */
+[data-theme="dark"] {
+  --color-primary: #e8eaed;
+  --color-primary-light: #c9cdd2;
+  --color-primary-dark: #0a1220;
+  --color-white: #0f1419;
+  --color-off-white: #1a2332;
+  --color-light: #1e2a3a;
+  --color-gray-100: #253344;
+  --color-gray-200: #2d3d4f;
+  --color-gray-300: #3d4f63;
+  --color-gray-400: #6b7d8f;
+  --color-gray-500: #8899a8;
+  --color-gray-600: #a8b5c2;
+  --color-gray-700: #c9d1d9;
+  --color-gray-800: #e6eaef;
+  --color-dark: #f0f2f5;
+  --color-black: #ffffff;
+  --color-accent-light: rgba(233, 69, 96, 0.15);
+
+  --color-success: #34d399;
+  --color-error: #f87171;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.15);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.2);
+  --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.35), 0 8px 20px rgba(0, 0, 0, 0.25);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 12px 40px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Fallback automatique si pas de préférence sauvegardée */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-primary: #e8eaed;
+    --color-primary-light: #c9cdd2;
+    --color-primary-dark: #0a1220;
+    --color-white: #0f1419;
+    --color-off-white: #1a2332;
+    --color-light: #1e2a3a;
+    --color-gray-100: #253344;
+    --color-gray-200: #2d3d4f;
+    --color-gray-300: #3d4f63;
+    --color-gray-400: #6b7d8f;
+    --color-gray-500: #8899a8;
+    --color-gray-600: #a8b5c2;
+    --color-gray-700: #c9d1d9;
+    --color-gray-800: #e6eaef;
+    --color-dark: #f0f2f5;
+    --color-black: #ffffff;
+    --color-accent-light: rgba(233, 69, 96, 0.15);
+
+    --color-success: #34d399;
+    --color-error: #f87171;
+
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.2);
+    --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.35), 0 8px 20px rgba(0, 0, 0, 0.25);
+    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.3);
+    --shadow-card-hover: 0 12px 40px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Préférence de mouvement réduit */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-base: 0ms;
+    --transition-slow: 0ms;
+    --transition-spring: 0ms;
+  }
+}
