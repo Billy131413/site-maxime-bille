@@ -134,13 +134,13 @@
   border-radius: var(--radius-xl);
   overflow-y: auto;
   overflow-x: hidden;
-  transform: translateY(30px) scale(0.97);
-  transition: transform var(--transition-slow);
+  transform: none;
+  transition: none;
   box-shadow: var(--shadow-xl);
 }
 
 .modal-overlay.active .modal {
-  transform: translateY(0) scale(1);
+  transform: none;
 }
 
 .modal__close {
