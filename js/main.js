@@ -274,12 +274,9 @@ document.addEventListener('DOMContentLoaded', () => {
       root.setAttribute('data-theme', theme);
     };
 
-    // Apply saved preference or system default
+    // Apply saved preference or default to light
     const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      applyTheme(saved);
-    }
-    // If no saved preference, don't set data-theme — let CSS media query handle it
+    applyTheme(saved || 'light');
 
     toggles.forEach((toggle) => {
       toggle.addEventListener('click', () => {
