@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/%USER%/public_html/
+    - /bin/cp index.html a-propos.html portfolio.html offres.html contact.html confidentialite.html mentions-legales.html robots.txt sitemap.xml "$DEPLOYPATH"
+    - /bin/cp -R css/ js/ assets/ data/ portfolio/ "$DEPLOYPATH"
